@@ -1,0 +1,121 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+nav {
+  background-color: #007acc;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #007acc;
+}
+
+#projects {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+#projects h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #007acc;
+}
+
+.project {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.project p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.nav a.active {
+  text-decoration: underline;
+  color: #fff;
+}
+
+#about {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px 0;
+  border: 4px solid #007acc;
+}
+
+#contact {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-info {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  padding: 0;
+}
+
+.contact-info li {
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #007acc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
